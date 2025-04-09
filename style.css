@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+max-width: 1400px;
+margin: 0 auto;
+}
+
+.parent{
+display: flex;
+justify-content: center;
+gap: 41px;
+bottom: 50px;
+}
+
+
+.header__position{
+    padding-top: 5px;
+background-image: url(Rectangle\ 2.png);
+height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+.green{
+width: 237px;
+height: 209px;
+background-color: #32FB00;
+}
+
+.red{
+width: 237px;
+height: 209px;
+background-color: #FF0000;
+font-weight: bold;
+position: absolute;
+top: 170px;
+left: 150px;
+}
+
+.red , .green{
+font-family: Inter;
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+text-shadow:4px 4px 4px #FFFFFF;
+
+}
+
+.redtwo{
+left: auto;
+right: 150px;
+
+}
+
+.redone{
+    left: auto;
+    right: 150px;
+}
+
+.red3{
+    left: auto;
+    right: 150px;
+
+}
+.red5{
+    left: 495px;
+    right: 411px;
+border-radius: 100px;
+width: 408px;
+}
+
+
+.box_position{
+display: flex;
+align-items: center;
+height: 800px;
+position: relative;
+justify-content: space-between;
+margin-top: 50px;
+}
+
+.position{
+background-color: #FFFFFF;
+font-family: Inter;
+font-weight: 700;
+font-size: 64px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+width: 602px;
+height: 75px;
+box-shadow: 16px 18px 28px 0 px #FFFFFF40;
+border-radius: 30px;
+margin: auto;
+}
+
+.rasmsemiz{
+
+display: flex;
+margin-left: 100px;
+}
